@@ -1,7 +1,3 @@
-terraform {
-  experiments = [module_variable_optional_attrs]
-}
-
 variable "files" {
   description = <<EOS
 The list of files for the modules.
